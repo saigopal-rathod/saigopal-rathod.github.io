@@ -1,0 +1,22 @@
+{
+  "_instructions": "About section content.",
+  "sectionTitle": "About Me",
+  "paragraphs": [
+    "Software developer and applied AI engineer with 4+ years of experience building RAG pipelines, LLM-powered APIs, and distributed data systems across Amazon, Altice USA, and NGA Group. Delivered end-to-end RAG architectures using LangChain, OpenAI APIs, Pinecone, and FAISS, with verifiable accuracy gains (62% to 88%) and measurable business impact (35% reduction in ad-hoc analyst requests, 60% ticket automation).",
+    "Strong backend foundation in Python, Flask, FastAPI, PostgreSQL, AWS, and GCP."
+  ],
+  "statistics": [
+    {
+      "value": "3+",
+      "label": "Years Experience"
+    },
+    {
+      "value": "5+",
+      "label": "Projects Completed"
+    },
+    {
+      "value": "38+",
+      "label": "Technologies"
+    }
+  ]
+}

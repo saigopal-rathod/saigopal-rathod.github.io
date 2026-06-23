@@ -1,0 +1,18 @@
+{
+  "_instructions": "Site-wide configuration and meta tags. Update these values for SEO and branding.",
+  "meta": {
+    "title": "Sai Gopal Rathod | AI/ML Engineer",
+    "description": "Sai Gopal Rathod - AI/ML Engineer | Portfolio",
+    "author": "Sai Gopal Rathod",
+    "keywords": "AI/ML Engineer, Portfolio, Sai Gopal Rathod"
+  },
+  "branding": {
+    "name": "Sai Gopal Rathod",
+    "tagline": "AI/ML Engineer"
+  },
+  "settings": {
+    "year": 2026,
+    "enableAnimations": true,
+    "navbarScrollEffect": true
+  }
+}

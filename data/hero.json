@@ -1,0 +1,50 @@
+{
+  "_instructions": "Hero section content - the first thing visitors see on your portfolio.",
+  "greeting": "Hi, I'm",
+  "name": "Sai Gopal Rathod",
+  "title": "AI/ML Engineer",
+  "summary": "AI/ML Engineer with 3+ years of experience specializing in Python, SQL, Bash/Shell Scripting.",
+  "avatarUrl": "/avatar.png",
+  "highlights": [
+    {
+      "icon": "fas fa-briefcase",
+      "text": "Professional Experience"
+    },
+    {
+      "icon": "fas fa-code",
+      "text": "Technical Expertise"
+    },
+    {
+      "icon": "fas fa-users",
+      "text": "Team Collaboration"
+    }
+  ],
+  "cta": {
+    "buttons": [
+      {
+        "text": "Get In Touch",
+        "href": "#contact",
+        "type": "primary",
+        "external": false
+      },
+      {
+        "text": "View My Work",
+        "href": "#projects",
+        "type": "secondary",
+        "external": false
+      }
+    ]
+  },
+  "socialLinks": [
+    {
+      "platform": "LinkedIn",
+      "url": "https://www.linkedin.com/in/sai-gopal-rathod/",
+      "icon": "fab fa-linkedin"
+    },
+    {
+      "platform": "Email",
+      "url": "mailto:saigopalrathod5@gmail.com",
+      "icon": "fas fa-envelope"
+    }
+  ]
+}

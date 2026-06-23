@@ -1,0 +1,81 @@
+{
+  "_instructions": "Organize your skills into categories. Each category has a name, icon, and list of skills.",
+  "_iconHelp": "Use Font Awesome icons (https://fontawesome.com/icons).",
+  "sectionTitle": "Skills & Technologies",
+  "categories": [
+    {
+      "category": "Programming Languages",
+      "icon": "fas fa-code",
+      "skills": [
+        "Python",
+        "SQL",
+        "Bash/Shell Scripting",
+        "Java",
+        "C++"
+      ]
+    },
+    {
+      "category": "Frameworks & Libraries",
+      "icon": "fas fa-toolbox",
+      "skills": [
+        "Flask",
+        "FastAPI",
+        "Django",
+        "SQLAlchemy",
+        "LangChain",
+        "LlamaIndex",
+        "PyTorch",
+        "Scikit-learn",
+        "Pandas",
+        "NumPy",
+        "XGBoost",
+        "Random Forest"
+      ]
+    },
+    {
+      "category": "Tools & Platforms",
+      "icon": "fas fa-wrench",
+      "skills": [
+        "OpenAI APIs",
+        "Pinecone",
+        "FAISS",
+        "AWS",
+        "EC2",
+        "S3",
+        "Lambda",
+        "Glue",
+        "Athena",
+        "GCP",
+        "BigQuery",
+        "Vertex AI",
+        "Docker",
+        "Kubernetes",
+        "CI/CD",
+        "Git",
+        "PostgreSQL",
+        "MySQL",
+        "MongoDB",
+        "Snowflake",
+        "Redis"
+      ]
+    },
+    {
+      "category": "Technical Skills",
+      "icon": "fas fa-laptop-code",
+      "skills": [
+        "RAG pipeline design",
+        "Prompt Engineering",
+        "Evaluation",
+        "Fine-Tuning Concepts",
+        "RESTful API Design",
+        "Microservices",
+        "Cloud & DevOps",
+        "ML & NLP",
+        "Anomaly Detection",
+        "Model Evaluation",
+        "SHAP Analysis",
+        "Cross-Validation"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "_instructions": "Add your education and certifications here.",
+  "sectionTitle": "Education & Certifications",
+  "certificationsTitle": "Certifications",
+  "education": [
+    {
+      "degree": "MS",
+      "school": "Hofstra University",
+      "institution": "Hofstra University",
+      "period": "Jan 2023 to May 2024",
+      "details": "GPA: 3.94/4.0",
+      "description": "GPA: 3.94/4.0"
+    },
+    {
+      "degree": "B.Tech",
+      "school": "NIT Calicut",
+      "institution": "NIT Calicut",
+      "period": "Jul 2016 to Jun 2020",
+      "details": "GPA: 3.0/4.0",
+      "description": "GPA: 3.0/4.0"
+    }
+  ],
+  "certifications": []
+}
