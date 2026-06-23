@@ -1,6 +1,8 @@
 {
-  "_instructions": "Contact section.",
+  "_instructions": "Contact section. Set form.action to a Formspree endpoint (https://formspree.io/f/XXXX) to receive submissions by email; leave it blank to use the mailto fallback.",
   "sectionTitle": "Get In Touch",
+  "eyebrow": "Let's talk",
+  "intro": "Open to Applied AI / ML Engineer roles and relocation. The fastest way to reach me is email — or drop a note below.",
   "contactInfo": [
     {
       "type": "email",
@@ -20,35 +22,48 @@
       "type": "location",
       "icon": "fas fa-map-marker-alt",
       "label": "Location",
-      "value": "New York, NY",
+      "value": "New York, NY · Open to relocate",
       "href": null
     },
     {
       "type": "linkedin",
-      "icon": "fab fa-linkedin",
+      "icon": "fab fa-linkedin-in",
       "label": "LinkedIn",
-      "value": "in/LinkedIn Profile",
+      "value": "in/sai-gopal-rathod",
       "href": "https://www.linkedin.com/in/sai-gopal-rathod/"
+    },
+    {
+      "type": "github",
+      "icon": "fab fa-github",
+      "label": "GitHub",
+      "value": "github.com/saigopal-rathod",
+      "href": "https://github.com/saigopal-rathod"
     }
   ],
   "form": {
+    "action": "",
+    "method": "POST",
+    "mailtoFallback": "saigopalrathod5@gmail.com",
     "fields": [
       {
         "id": "name",
         "type": "text",
+        "label": "Name",
         "placeholder": "Your Name",
         "required": true
       },
       {
         "id": "email",
         "type": "email",
-        "placeholder": "Your Email",
+        "label": "Email",
+        "placeholder": "you@example.com",
         "required": true
       },
       {
         "id": "message",
         "type": "textarea",
-        "placeholder": "Your Message",
+        "label": "Message",
+        "placeholder": "Tell me about the role or project…",
         "rows": 5,
         "required": true
       }
@@ -57,6 +72,7 @@
       "text": "Send Message",
       "type": "primary"
     },
-    "successMessage": "Thank you for your message!"
+    "successMessage": "Thanks — your message is on its way. I'll get back to you soon.",
+    "errorMessage": "Something went wrong. Please email me directly at saigopalrathod5@gmail.com."
   }
 }

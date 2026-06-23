@@ -1,22 +1,27 @@
 {
   "_instructions": "About section content.",
   "sectionTitle": "About Me",
+  "eyebrow": "Who I am",
   "paragraphs": [
-    "Software developer and applied AI engineer with 4+ years of experience building RAG pipelines, LLM-powered APIs, and distributed data systems across Amazon, Altice USA, and NGA Group. Delivered end-to-end RAG architectures using LangChain, OpenAI APIs, Pinecone, and FAISS, with verifiable accuracy gains (62% to 88%) and measurable business impact (35% reduction in ad-hoc analyst requests, 60% ticket automation).",
-    "Strong backend foundation in Python, Flask, FastAPI, PostgreSQL, AWS, and GCP."
+    "I'm a software developer and applied AI engineer with 4+ years building RAG pipelines, LLM-powered APIs, and distributed data systems across Amazon, Altice USA, and NGA Group. I care about the unglamorous parts that make AI actually work in production — chunking strategy, embedding selection, reranking, and rigorous evaluation (faithfulness, retrieval precision, answer relevance).",
+    "That focus shows up in the numbers: end-to-end RAG architectures with LangChain, OpenAI APIs, Pinecone, and FAISS that moved answer accuracy from 62% to 88%, cut ad-hoc analyst requests by 35%, and automated ~60% of inbound support tickets. Underneath sits a strong backend foundation in Python, Flask, FastAPI, PostgreSQL, AWS, and GCP."
   ],
   "statistics": [
     {
-      "value": "3+",
+      "value": "4+",
       "label": "Years Experience"
     },
     {
-      "value": "5+",
-      "label": "Projects Completed"
+      "value": "88%",
+      "label": "Peak RAG Accuracy"
     },
     {
-      "value": "38+",
-      "label": "Technologies"
+      "value": "60%",
+      "label": "Tickets Automated"
+    },
+    {
+      "value": "41%",
+      "label": "Pipeline Efficiency Gain"
     }
   ]
 }

@@ -1,23 +1,26 @@
 {
   "_instructions": "Add your education and certifications here.",
-  "sectionTitle": "Education & Certifications",
+  "sectionTitle": "Education",
+  "eyebrow": "Foundations",
   "certificationsTitle": "Certifications",
   "education": [
     {
-      "degree": "MS",
+      "degree": "MS, Business Analytics",
       "school": "Hofstra University",
       "institution": "Hofstra University",
-      "period": "Jan 2023 to May 2024",
-      "details": "GPA: 3.94/4.0",
-      "description": "GPA: 3.94/4.0"
+      "period": "Jan 2023 — May 2024",
+      "logo": "assets/logos/hofstra.png",
+      "details": "GPA 3.94 / 4.0",
+      "description": "GPA 3.94 / 4.0"
     },
     {
-      "degree": "B.Tech",
+      "degree": "B.Tech, Computer Science & Engineering",
       "school": "NIT Calicut",
-      "institution": "NIT Calicut",
-      "period": "Jul 2016 to Jun 2020",
-      "details": "GPA: 3.0/4.0",
-      "description": "GPA: 3.0/4.0"
+      "institution": "National Institute of Technology Calicut",
+      "period": "Jul 2016 — Jun 2020",
+      "logo": "assets/logos/nitc.png",
+      "details": "GPA 3.0 / 4.0",
+      "description": "GPA 3.0 / 4.0"
     }
   ],
   "certifications": []

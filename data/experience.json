@@ -1,45 +1,48 @@
 {
   "_instructions": "Add your work experience here. Copy the experience object for each job.",
   "sectionTitle": "Professional Experience",
+  "eyebrow": "Where I've worked",
   "experiences": [
     {
       "title": "AI/ML Engineer",
       "company": "NGA Group Inc.",
-      "period": "Jul 2024 to Present",
-      "location": "",
-      "description": "Built a production RAG assistant on internal reporting data using OpenAI APIs, LangChain, and a Pinecone vector store; enabled non-technical stakeholders to query analytics in natural language and reduced ad-hoc analyst requests by 35%.\nDesigned and iterated on chunking strategy, embedding model selection, and prompt engineering templates (system prompts, few-shot examples, guardrails) with structured evaluation criteria (faithfulness, answer relevance, retrieval precision), lifting LLM response accuracy from 62% to 88% on a curated ground-truth test set.\nOwned data architecture for 3 production databases across 5+ concurrent projects, defining schema design, indexing strategy, and integrity constraints that reduced downstream engineering corrections by 15%.\nDesigned 10+ Python and SQL automation workflows replacing entirely manual reporting processes, recovering 20 hours per month of analyst capacity and improving data freshness to near real time.\nApplied statistical profiling across production logs to isolate persistent bottlenecks, implemented targeted fixes achieving a 10% performance gain and 25% reduction in critical errors with full regression coverage.",
+      "period": "Jul 2024 — Present",
+      "location": "North Brunswick Township, NJ",
+      "logo": "assets/logos/nga.png",
+      "description": "Building production RAG and automation on internal reporting data — owning architecture, evaluation, and the workflows that put analytics in non-technical hands.",
       "responsibilities": [
-        "Built a production RAG assistant on internal reporting data using OpenAI APIs, LangChain, and a Pinecone vector store; enabled non-technical stakeholders to query analytics in natural language and reduced ad-hoc analyst requests by 35%",
-        "Designed and iterated on chunking strategy, embedding model selection, and prompt engineering templates (system prompts, few-shot examples, guardrails) with structured evaluation criteria (faithfulness, answer relevance, retrieval precision), lifting LLM response accuracy from 62% to 88% on a curated ground-truth test set",
-        "Owned data architecture for 3 production databases across 5+ concurrent projects, defining schema design, indexing strategy, and integrity constraints that reduced downstream engineering corrections by 15%",
-        "Designed 10+ Python and SQL automation workflows replacing entirely manual reporting processes, recovering 20 hours per month of analyst capacity and improving data freshness to near real time",
-        "Applied statistical profiling across production logs to isolate persistent bottlenecks, implemented targeted fixes achieving a 10% performance gain and 25% reduction in critical errors with full regression coverage"
+        "Built a production RAG assistant using OpenAI APIs, LangChain, and a Pinecone vector store, enabling non-technical stakeholders to query analytics in natural language and reducing ad-hoc analyst requests by 35%.",
+        "Designed chunking strategy, embedding selection, and prompt templates (system prompts, few-shot, guardrails) with structured evaluation (faithfulness, answer relevance, retrieval precision), lifting response accuracy from 62% to 88% on a curated ground-truth set.",
+        "Owned data architecture for 3 production databases across 5+ concurrent projects — schema design, indexing, and integrity constraints that cut downstream engineering corrections by 15%.",
+        "Designed 10+ Python and SQL automation workflows replacing manual reporting, recovering 20 analyst-hours per month and improving data freshness to near real time.",
+        "Profiled production logs to isolate bottlenecks and shipped targeted fixes for a 10% performance gain and 25% fewer critical errors, with full regression coverage."
       ]
     },
     {
       "title": "AI/ML Engineering Intern",
       "company": "Altice USA",
-      "period": "Jan 2024 to May 2024",
-      "location": "",
-      "description": "Built a Python-based anomaly detection service from scratch using Isolation Forest with threshold-based fallbacks, improving hardware fault detection accuracy by 25% and increasing network reliability by 20% across a subscriber base of millions.\nDeveloped and evaluated ML model pipelines on GCP (BigQuery, Vertex AI), contributing to team-wide migration from legacy analytics tooling through structured enablement sessions and hands-on workshops across 3+ teams.\nRedesigned 8 ETL pipelines in Palantir Foundry with fully automated, idempotent workflows, reducing processing time by 30% and establishing data reliability standards adopted across the product organization.\nDesigned and maintained A/B testing infrastructure for ML-driven product feature evaluations, introducing statistical rigor to rollout decisions previously based on intuition.\nCollaborated with data and product teams to surface model insights, translating outputs into actionable recommendations and supporting cross-functional alignment on AI adoption priorities.",
+      "period": "Jan 2024 — May 2024",
+      "location": "New York, NY",
+      "logo": "assets/logos/altice.png",
+      "description": "Built ML services and pipelines from scratch — anomaly detection, GCP model pipelines, and ETL redesign across a subscriber base of millions.",
       "responsibilities": [
-        "Built a Python-based anomaly detection service from scratch using Isolation Forest with threshold-based fallbacks, improving hardware fault detection accuracy by 25% and increasing network reliability by 20% across a subscriber base of millions",
-        "Developed and evaluated ML model pipelines on GCP (BigQuery, Vertex AI), contributing to team-wide migration from legacy analytics tooling through structured enablement sessions and hands-on workshops across 3+ teams",
-        "Redesigned 8 ETL pipelines in Palantir Foundry with fully automated, idempotent workflows, reducing processing time by 30% and establishing data reliability standards adopted across the product organization",
-        "Designed and maintained A/B testing infrastructure for ML-driven product feature evaluations, introducing statistical rigor to rollout decisions previously based on intuition",
-        "Collaborated with data and product teams to surface model insights, translating outputs into actionable recommendations and supporting cross-functional alignment on AI adoption priorities"
+        "Built a Python anomaly detection service from scratch using Isolation Forest with threshold-based fallbacks, improving hardware fault detection accuracy by 25% and network reliability by 20% across millions of subscribers.",
+        "Developed and evaluated ML pipelines on GCP (BigQuery, Vertex AI), driving team-wide migration off legacy analytics tooling through enablement sessions across 3+ teams.",
+        "Redesigned 8 ETL pipelines in Palantir Foundry as automated, idempotent workflows — 30% faster processing and new data-reliability standards adopted org-wide.",
+        "Designed A/B testing infrastructure for ML-driven feature evaluations, bringing statistical rigor to rollout decisions previously based on intuition."
       ]
     },
     {
       "title": "Programmer Analyst",
       "company": "Amazon",
-      "period": "Jul 2020 to Dec 2022",
-      "location": "",
-      "description": "Architected an end-to-end data quality system using AWS Glue and Python across 12 interdependent datasets: automated profiling, schema validation, and anomaly flagging that improved pipeline efficiency by 41% and reduced system downtime by 15%.\nDesigned forecasting models in Python and Amazon Athena managing 500,000+ records; improved demand planning accuracy by 10% and contributed to an 8% quarterly revenue uplift by identifying demand signal patterns the incumbent model was ignoring.\nStandardized cross-functional data definitions and delivery cadence across 4 teams, cutting reporting turnaround by 25%.",
+      "period": "Jul 2020 — Dec 2022",
+      "location": "Hyderabad, India",
+      "logo": "assets/logos/amazon.png",
+      "description": "Architected data-quality and forecasting systems at scale on AWS — profiling, validation, and demand models across millions of records.",
       "responsibilities": [
-        "Architected an end-to-end data quality system using AWS Glue and Python across 12 interdependent datasets: automated profiling, schema validation, and anomaly flagging that improved pipeline efficiency by 41% and reduced system downtime by 15%",
-        "Designed forecasting models in Python and Amazon Athena managing 500,000+ records; improved demand planning accuracy by 10% and contributed to an 8% quarterly revenue uplift by identifying demand signal patterns the incumbent model was ignoring",
-        "Standardized cross-functional data definitions and delivery cadence across 4 teams, cutting reporting turnaround by 25%"
+        "Architected an end-to-end data quality system with AWS Glue and Python across 12 interdependent datasets — automated profiling, schema validation, and anomaly flagging that improved pipeline efficiency by 41% and cut downtime by 15%.",
+        "Designed forecasting models in Python and Amazon Athena over 500,000+ records, improving demand-planning accuracy by 10% and contributing to an 8% quarterly revenue uplift by surfacing signals the incumbent model ignored.",
+        "Standardized cross-functional data definitions and delivery cadence across 4 teams, cutting reporting turnaround by 25%."
       ]
     }
   ]

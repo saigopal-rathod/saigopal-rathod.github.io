@@ -1,37 +1,43 @@
 {
   "_instructions": "Hero section content - the first thing visitors see on your portfolio.",
+  "eyebrow": "Applied AI / ML Engineer",
   "greeting": "Hi, I'm",
   "name": "Sai Gopal Rathod",
-  "title": "AI/ML Engineer",
-  "summary": "AI/ML Engineer with 3+ years of experience specializing in Python, SQL, Bash/Shell Scripting.",
+  "title": "I build RAG pipelines & LLM-powered APIs that ship measurable impact.",
+  "summary": "Applied AI engineer with 4+ years across <strong>Amazon</strong>, <strong>Altice USA</strong>, and <strong>NGA Group</strong> — designing production RAG systems and evaluation pipelines that lifted answer accuracy from 62% to 88% and automated ~60% of support tickets.",
+  "headshot": "assets/img/headshot.jpg",
+  "availability": "Open to Applied AI / ML Engineer roles",
   "avatarUrl": "/avatar.png",
   "highlights": [
     {
-      "icon": "fas fa-briefcase",
-      "text": "Professional Experience"
+      "icon": "fas fa-diagram-project",
+      "text": "RAG & LLM Pipelines"
     },
     {
-      "icon": "fas fa-code",
-      "text": "Technical Expertise"
+      "icon": "fas fa-flask-vial",
+      "text": "LLM Evaluation"
     },
     {
-      "icon": "fas fa-users",
-      "text": "Team Collaboration"
+      "icon": "fas fa-cloud",
+      "text": "Production ML · AWS/GCP"
     }
   ],
   "cta": {
     "buttons": [
       {
-        "text": "Get In Touch",
-        "href": "#contact",
-        "type": "primary",
-        "external": false
-      },
-      {
         "text": "View My Work",
         "href": "#projects",
+        "type": "primary",
+        "external": false,
+        "icon": "fas fa-arrow-down"
+      },
+      {
+        "text": "Download Résumé",
+        "href": "assets/Sai-Gopal-Rathod-Resume.pdf",
         "type": "secondary",
-        "external": false
+        "external": true,
+        "download": true,
+        "icon": "fas fa-file-arrow-down"
       }
     ]
   },
@@ -39,7 +45,12 @@
     {
       "platform": "LinkedIn",
       "url": "https://www.linkedin.com/in/sai-gopal-rathod/",
-      "icon": "fab fa-linkedin"
+      "icon": "fab fa-linkedin-in"
+    },
+    {
+      "platform": "GitHub",
+      "url": "https://github.com/saigopal-rathod",
+      "icon": "fab fa-github"
     },
     {
       "platform": "Email",

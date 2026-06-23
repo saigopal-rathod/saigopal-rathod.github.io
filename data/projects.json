@@ -1,138 +1,121 @@
 {
-  "_instructions": "Add your projects here. Each project should showcase your work.",
+  "_instructions": "Projects. Items with \"featured\": true render as large case studies; the rest render as repo cards filtered by \"category\".",
   "sectionTitle": "Featured Projects",
+  "eyebrow": "Selected work",
+  "filters": ["All", "RAG & LLMs", "Full-Stack", "Analytics"],
   "projects": [
     {
       "title": "AI-Powered Customer Support Automation Platform",
-      "description": "Designed full system architecture independently: Flask/FastAPI service layer with RESTful endpoints, LLM-driven intent classification, a RAG layer using FAISS embeddings over the support knowledge base, a PostgreSQL and SQLAlchemy-backed SQL generation engine, and a human escalation fallback for low-confidence classifications. Automated approximately 60% of inbound ticket volume, reducing average wait time by 40%. Awarded 3rd Prize at the Altice USA Hackathon; referenced internally as a model for AI-driven support automation.",
-      "technologies": [
-        "Python",
-        "Flask",
-        "FastAPI",
-        "OpenAI API",
-        "LangChain",
-        "RAG",
-        "FAISS",
-        "PostgreSQL",
-        "SQLAlchemy",
-        "NLP"
+      "featured": true,
+      "category": "RAG & LLMs",
+      "description": "End-to-end support automation, architected solo: a Flask/FastAPI service layer with RESTful endpoints, LLM-driven intent classification, a FAISS-backed RAG layer over the support knowledge base, a PostgreSQL + SQLAlchemy SQL-generation engine, and a human-escalation fallback for low-confidence cases.",
+      "metrics": [
+        { "value": 60, "suffix": "%", "label": "tickets automated" },
+        { "value": 40, "suffix": "%", "label": "lower wait time" }
       ],
-      "icon": "fas fa-brain",
+      "award": "3rd Prize · Altice USA Hackathon",
+      "status": "private",
+      "technologies": ["Python", "Flask", "FastAPI", "OpenAI API", "LangChain", "RAG", "FAISS", "PostgreSQL", "SQLAlchemy"],
+      "image": "assets/img/projects/support-automation.webp",
+      "icon": "fas fa-headset",
       "github": "",
       "demo": ""
     },
     {
       "title": "Predictive Campaign Intelligence System",
-      "description": "Designed EDA pipeline across 45,000 customer records, feature engineering from transactional signals, model selection, and a SHAP interpretability layer for non-technical stakeholders. Final architecture: XGBoost and Random Forest ensemble (ROC-AUC: 0.72). Dashboard adopted by marketing leadership, improving conversion rate predictions by 18%.",
-      "technologies": [
-        "Python",
-        "XGBoost",
-        "Random Forest",
-        "SHAP",
-        "Tableau"
+      "featured": true,
+      "category": "Analytics",
+      "description": "An interpretable marketing-prediction system: EDA across 45,000 customer records, feature engineering from transactional signals, and an XGBoost + Random Forest ensemble with a SHAP layer that made predictions legible to non-technical stakeholders. Adopted by marketing leadership.",
+      "metrics": [
+        { "value": 0.72, "decimals": 2, "label": "ROC-AUC" },
+        { "value": 18, "suffix": "%", "label": "better conversion prediction" }
       ],
-      "icon": "fas fa-project-diagram",
+      "status": "private",
+      "technologies": ["Python", "XGBoost", "Random Forest", "SHAP", "Tableau"],
+      "image": "assets/img/projects/campaign-intelligence.webp",
+      "icon": "fas fa-chart-line",
       "github": "",
       "demo": ""
     },
     {
-      "title": "mern-ecommerce",
-      "description": "Learning project built with modern web technologies",
-      "technologies": [
-        "JavaScript",
-        "SCSS",
-        "Dockerfile",
-        "HTML"
-      ],
-      "icon": "fas fa-brain",
-      "github": "https://github.com/saigopal-rathod/mern-ecommerce",
-      "demo": "https://github.com/saigopal-rathod/mern-ecommerce"
-    },
-    {
-      "title": "mern-chat-app",
-      "description": "Educational project for mastering software architecture",
-      "technologies": [
-        "TypeScript",
-        "JavaScript",
-        "CSS",
-        "Dockerfile",
-        "HTML"
-      ],
-      "icon": "fas fa-brain",
-      "github": "https://github.com/saigopal-rathod/mern-chat-app",
-      "demo": "https://github.com/saigopal-rathod/mern-chat-app"
-    },
-    {
-      "title": "flappybirdai",
-      "description": "Comprehensive project exploring software design patterns",
-      "technologies": [
-        "Python",
-        "HTML"
-      ],
-      "icon": "fas fa-brain",
-      "github": "https://github.com/saigopal-rathod/flappybirdai",
-      "demo": "https://github.com/saigopal-rathod/flappybirdai"
-    },
-    {
-      "title": "rag-from-scratch",
-      "description": "Educational project for mastering software architecture",
-      "technologies": [
-        "JavaScript"
-      ],
-      "icon": "fas fa-project-diagram",
-      "github": "https://github.com/saigopal-rathod/rag-from-scratch",
-      "demo": "https://github.com/saigopal-rathod/rag-from-scratch"
-    },
-    {
       "title": "rag-chatbot",
-      "description": "Comprehensive project exploring software design patterns",
-      "technologies": [
-        "Python",
-        "TypeScript",
-        "CSS",
-        "JavaScript",
-        "Makefile",
-        "HTML",
-        "Mako",
-        "Shell"
-      ],
-      "icon": "fas fa-brain",
+      "category": "RAG & LLMs",
+      "description": "A production-style RAG chatbot: FastAPI backend, Chroma vector store, and local LLM inference via llama.cpp, with hierarchical context management and a real-time UI.",
+      "technologies": ["Python", "FastAPI", "Chroma", "llama.cpp"],
+      "image": "assets/img/projects/rag-chatbot.webp",
+      "icon": "fas fa-robot",
       "github": "https://github.com/saigopal-rathod/rag-chatbot",
-      "demo": "https://github.com/saigopal-rathod/rag-chatbot"
-    },
-    {
-      "title": "langchain-rag-retrieval-augmented-generation-for-document-understanding",
-      "description": "Practice application demonstrating full-stack development skills",
-      "technologies": [
-        "Jupyter Notebook"
-      ],
-      "icon": "fas fa-project-diagram",
-      "github": "https://github.com/saigopal-rathod/langchain-rag-retrieval-augmented-generation-for-document-understanding",
-      "demo": "https://github.com/saigopal-rathod/langchain-rag-retrieval-augmented-generation-for-document-understanding"
-    },
-    {
-      "title": "multimodal-live-rag-voice",
-      "description": "Modern web application demonstrating clean code principles",
-      "technologies": [],
-      "icon": "fas fa-project-diagram",
-      "github": "https://github.com/saigopal-rathod/multimodal-live-rag-voice",
-      "demo": "https://github.com/saigopal-rathod/multimodal-live-rag-voice"
+      "demo": ""
     },
     {
       "title": "multi-agentic-rag",
-      "description": "Personal project for exploring modern development practices",
-      "technologies": [],
-      "icon": "fas fa-project-diagram",
+      "category": "RAG & LLMs",
+      "description": "Multi-agent RAG — coordinated agents that plan, retrieve, and synthesize over a knowledge base to handle complex, multi-step queries.",
+      "technologies": ["Python", "LangChain", "RAG", "Agents"],
+      "image": "assets/img/projects/multi-agentic-rag.webp",
+      "icon": "fas fa-diagram-project",
       "github": "https://github.com/saigopal-rathod/multi-agentic-rag",
-      "demo": "https://github.com/saigopal-rathod/multi-agentic-rag"
+      "demo": ""
+    },
+    {
+      "title": "multimodal-live-rag-voice",
+      "category": "RAG & LLMs",
+      "description": "Voice-enabled multimodal RAG — live audio in, retrieved-and-grounded answers out, combining speech with retrieval.",
+      "technologies": ["Python", "RAG", "Multimodal", "Speech"],
+      "image": "assets/img/projects/multimodal-rag-voice.webp",
+      "icon": "fas fa-microphone-lines",
+      "github": "https://github.com/saigopal-rathod/multimodal-live-rag-voice",
+      "demo": ""
+    },
+    {
+      "title": "langchain-rag-document-understanding",
+      "category": "RAG & LLMs",
+      "description": "LangChain RAG over PDFs: chunking, SentenceTransformer + FAISS retrieval, and an OpenAI-powered QA pipeline for document understanding, summarization, and report generation.",
+      "technologies": ["Python", "LangChain", "FAISS", "OpenAI", "HuggingFace"],
+      "image": "assets/img/projects/langchain-rag.webp",
+      "icon": "fas fa-file-lines",
+      "github": "https://github.com/saigopal-rathod/langchain-rag-retrieval-augmented-generation-for-document-understanding",
+      "demo": ""
+    },
+    {
+      "title": "rag-from-scratch",
+      "category": "RAG & LLMs",
+      "description": "RAG built from the ground up across 10 progressive modules — embeddings, vector storage, hybrid search, multi-query retrieval, and query rewriting, with zero cloud dependencies.",
+      "technologies": ["Python", "Embeddings", "Hybrid Search"],
+      "image": "assets/img/projects/rag-from-scratch.webp",
+      "icon": "fas fa-layer-group",
+      "github": "https://github.com/saigopal-rathod/rag-from-scratch",
+      "demo": ""
+    },
+    {
+      "title": "Conversa — Real-Time Chat",
+      "category": "Full-Stack",
+      "description": "A full-stack MERN chat app: Socket.IO real-time messaging, JWT + email/OTP auth, a per-user Google Gemini AI bot, AWS S3 media, read receipts and replies — Dockerized.",
+      "technologies": ["TypeScript", "React", "Node.js", "Socket.IO", "MongoDB", "Docker"],
+      "image": "assets/img/projects/conversa-chat.webp",
+      "icon": "fas fa-comments",
+      "github": "https://github.com/saigopal-rathod/mern-chat-app",
+      "demo": ""
+    },
+    {
+      "title": "mern-ecommerce",
+      "category": "Full-Stack",
+      "description": "Full-stack MERN commerce platform with multi-role buyers, sellers, and admins, Redux state management, and a Vercel deployment.",
+      "technologies": ["JavaScript", "React", "Node.js", "MongoDB", "Redux"],
+      "image": "assets/img/projects/mern-ecommerce.webp",
+      "icon": "fas fa-cart-shopping",
+      "github": "https://github.com/saigopal-rathod/mern-ecommerce",
+      "demo": ""
     },
     {
       "title": "Marketing-Analytics-for-E-Commerce",
-      "description": "GitHub repository: Marketing-Analytics-for-E-Commerce",
-      "technologies": [],
-      "icon": "fas fa-project-diagram",
+      "category": "Analytics",
+      "description": "Marketing analytics for e-commerce — turning transactional signals into campaign performance and conversion insight.",
+      "technologies": ["Python", "Pandas", "Analytics"],
+      "image": "assets/img/projects/marketing-analytics.webp",
+      "icon": "fas fa-magnifying-glass-chart",
       "github": "https://github.com/saigopal-rathod/Marketing-Analytics-for-E-Commerce",
-      "demo": "https://github.com/saigopal-rathod/Marketing-Analytics-for-E-Commerce"
+      "demo": ""
     }
   ]
 }

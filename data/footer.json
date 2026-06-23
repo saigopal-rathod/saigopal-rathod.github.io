@@ -1,14 +1,24 @@
 {
   "_instructions": "Footer content.",
+  "tagline": "Applied AI / ML Engineer — building RAG systems that ship.",
   "copyright": {
     "text": "All rights reserved.",
     "name": "Sai Gopal Rathod",
     "year": 2026
   },
+  "disclaimer": "All company and university names, logos, and trademarks are the property of their respective owners and are used here for identification purposes only. No affiliation or endorsement is implied.",
   "links": [
     {
       "text": "LinkedIn",
       "url": "https://www.linkedin.com/in/sai-gopal-rathod/"
+    },
+    {
+      "text": "GitHub",
+      "url": "https://github.com/saigopal-rathod"
+    },
+    {
+      "text": "Email",
+      "url": "mailto:saigopalrathod5@gmail.com"
     }
   ]
 }

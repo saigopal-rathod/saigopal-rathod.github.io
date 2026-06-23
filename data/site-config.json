@@ -1,14 +1,15 @@
 {
   "_instructions": "Site-wide configuration and meta tags. Update these values for SEO and branding.",
   "meta": {
-    "title": "Sai Gopal Rathod | AI/ML Engineer",
-    "description": "Sai Gopal Rathod - AI/ML Engineer | Portfolio",
+    "title": "Sai Gopal Rathod — Applied AI / ML Engineer",
+    "description": "Applied AI / ML Engineer with 4+ years across Amazon, Altice USA, and NGA Group — building production RAG pipelines, LLM-powered APIs, and evaluation systems in Python, FastAPI, AWS, and GCP.",
     "author": "Sai Gopal Rathod",
-    "keywords": "AI/ML Engineer, Portfolio, Sai Gopal Rathod"
+    "keywords": "Applied AI Engineer, ML Engineer, RAG, LLM, LangChain, OpenAI, FastAPI, Python, Vector Databases, Pinecone, FAISS, Portfolio, Sai Gopal Rathod"
   },
   "branding": {
     "name": "Sai Gopal Rathod",
-    "tagline": "AI/ML Engineer"
+    "monogram": "SR",
+    "tagline": "Applied AI / ML Engineer"
   },
   "settings": {
     "year": 2026,

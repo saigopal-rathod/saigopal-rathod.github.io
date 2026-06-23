@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>404 — Page Not Found · Sai Gopal Rathod</title>
+    <meta name="robots" content="noindex" />
+    <meta name="theme-color" content="#0A0B0F" />
+    <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=JetBrains+Mono:wght@400;500;700&family=Sora:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <style>
+      .nf {
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        text-align: center;
+        padding: var(--space-xl);
+        position: relative;
+        overflow: hidden;
+      }
+      .nf-inner {
+        position: relative;
+        z-index: 1;
+        max-width: 560px;
+      }
+      .nf-eyebrow {
+        font-family: var(--font-mono);
+        color: var(--accent);
+        letter-spacing: 0.24em;
+        text-transform: uppercase;
+        font-size: 0.8rem;
+        margin-bottom: var(--space-md);
+      }
+      .nf-code {
+        font-family: var(--font-display);
+        font-size: clamp(5rem, 22vw, 13rem);
+        font-weight: 800;
+        line-height: 1;
+        letter-spacing: -0.04em;
+        background: linear-gradient(110deg, var(--accent) 10%, var(--accent-2) 90%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+      }
+      .nf h1 {
+        font-size: clamp(1.3rem, 4vw, 2rem);
+        margin: var(--space-md) 0;
+      }
+      .nf p {
+        color: var(--text-1);
+        margin: 0 auto var(--space-xl);
+      }
+    </style>
+  </head>
+  <body>
+    <main class="nf">
+      <div class="hero-bg" aria-hidden="true">
+        <span class="glow glow-1"></span>
+        <span class="glow glow-2"></span>
+      </div>
+      <div class="nf-inner">
+        <p class="nf-eyebrow">Error 404</p>
+        <div class="nf-code">404</div>
+        <h1>This page wandered off the grid.</h1>
+        <p>The page you're looking for doesn't exist or has moved. Let's get you back to the work.</p>
+        <a href="/" class="btn btn-primary"><span>Back to home</span> <i class="fas fa-arrow-right"></i></a>
+      </div>
+    </main>
+  </body>
+</html>

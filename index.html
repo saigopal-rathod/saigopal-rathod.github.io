@@ -3,10 +3,75 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Professional Portfolio" />
-    <meta name="author" content="" />
-    <meta name="keywords" content="" />
-    <title>Portfolio</title>
+    <title>Sai Gopal Rathod — Applied AI / ML Engineer</title>
+    <meta
+      name="description"
+      content="Applied AI / ML Engineer with 4+ years across Amazon, Altice USA, and NGA Group — building production RAG pipelines, LLM-powered APIs, and evaluation systems."
+    />
+    <meta name="author" content="Sai Gopal Rathod" />
+    <meta name="keywords" content="Applied AI Engineer, ML Engineer, RAG, LLM, LangChain, OpenAI, FastAPI, Python, Portfolio" />
+    <meta name="theme-color" content="#0A0B0F" />
+
+    <!-- Open Graph / social -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Sai Gopal Rathod — Applied AI / ML Engineer" />
+    <meta
+      property="og:description"
+      content="Production RAG pipelines, LLM-powered APIs, and evaluation systems. 62%→88% answer accuracy, ~60% tickets automated."
+    />
+    <meta property="og:url" content="https://saigopal-rathod.github.io" />
+    <meta property="og:image" content="https://saigopal-rathod.github.io/assets/img/og-cover.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="https://saigopal-rathod.github.io/assets/img/og-cover.png" />
+    <link rel="canonical" href="https://saigopal-rathod.github.io/" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" type="image/png" sizes="48x48" href="assets/img/favicon-48.png" />
+    <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png" />
+
+    <!-- Structured data: Person -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Sai Gopal Rathod",
+        "jobTitle": "Applied AI / ML Engineer",
+        "url": "https://saigopal-rathod.github.io",
+        "email": "mailto:saigopalrathod5@gmail.com",
+        "image": "https://saigopal-rathod.github.io/assets/img/headshot.jpg",
+        "sameAs": [
+          "https://www.linkedin.com/in/sai-gopal-rathod/",
+          "https://github.com/saigopal-rathod"
+        ],
+        "knowsAbout": [
+          "Retrieval-Augmented Generation",
+          "Large Language Models",
+          "LangChain",
+          "Vector Databases",
+          "Python",
+          "FastAPI",
+          "Machine Learning",
+          "AWS",
+          "GCP"
+        ],
+        "alumniOf": [
+          { "@type": "CollegeOrUniversity", "name": "Hofstra University" },
+          { "@type": "CollegeOrUniversity", "name": "National Institute of Technology Calicut" }
+        ]
+      }
+    </script>
+
+    <!-- Fonts: Bricolage Grotesque (display) + Sora (body) + JetBrains Mono (labels) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=JetBrains+Mono:wght@400;500;700&family=Sora:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="assets/css/styles.css" />
     <link
       rel="stylesheet"
@@ -14,13 +79,19 @@
     />
   </head>
   <body>
+    <a class="skip-link" href="#home">Skip to content</a>
+    <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
     <!-- Navigation -->
     <nav class="navbar" id="navbar">
       <div class="container">
         <div class="nav-brand">
-          <a href="#home"></a>
+          <a href="#home">
+            <span class="nav-monogram" aria-hidden="true">SR</span>
+            <span class="nav-name"></span>
+          </a>
         </div>
-        <button class="nav-toggle" id="navToggle">
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
           <span></span>
           <span></span>
           <span></span>
@@ -33,30 +104,51 @@
 
     <!-- Hero Section -->
     <section id="home" class="hero">
+      <div class="hero-bg" aria-hidden="true">
+        <span class="glow glow-1"></span>
+        <span class="glow glow-2"></span>
+      </div>
       <div class="container">
-        <div class="hero-content">
-          <h1 class="hero-title">
-            <span id="heroGreeting"></span> <span class="highlight" id="heroName"></span>
-          </h1>
-          <h2 class="hero-subtitle" id="heroTitle"></h2>
-          <p class="hero-description" id="heroSummary"></p>
-          <div class="hero-highlights" id="heroHighlights">
-            <!-- Highlights will be loaded dynamically -->
+        <div class="hero-grid">
+          <div class="hero-content">
+            <p class="hero-eyebrow" id="heroEyebrow"></p>
+            <h1 class="hero-title">
+              <span id="heroGreeting"></span>
+              <span class="highlight" id="heroName"></span>
+            </h1>
+            <h2 class="hero-subtitle" id="heroTitle"></h2>
+            <p class="hero-description" id="heroSummary"></p>
+            <div class="hero-highlights" id="heroHighlights">
+              <!-- Highlights will be loaded dynamically -->
+            </div>
+            <div class="hero-cta" id="heroCTA">
+              <!-- CTA buttons will be loaded dynamically -->
+            </div>
+            <div class="social-links" id="heroSocial">
+              <!-- Social links will be loaded dynamically -->
+            </div>
+            <p class="hero-availability" id="heroAvailability"></p>
           </div>
-          <div class="hero-cta" id="heroCTA">
-            <!-- CTA buttons will be loaded dynamically -->
-          </div>
-          <div class="social-links" id="heroSocial">
-            <!-- Social links will be loaded dynamically -->
+          <div class="hero-media">
+            <div class="headshot-frame is-placeholder" id="headshotFrame">
+              <span class="headshot-monogram" aria-hidden="true">SR</span>
+              <img id="heroHeadshot" alt="Sai Gopal Rathod" />
+            </div>
           </div>
         </div>
       </div>
+      <a class="hero-scroll" href="#about" aria-label="Scroll to about">
+        <span></span>
+      </a>
     </section>
 
     <!-- About Section -->
     <section id="about" class="about">
       <div class="container">
-        <h2 class="section-title"></h2>
+        <div class="section-head">
+          <p class="section-eyebrow"></p>
+          <h2 class="section-title"></h2>
+        </div>
         <div class="about-content">
           <div class="about-text" id="aboutText">
             <!-- Paragraphs will be loaded dynamically -->
@@ -71,7 +163,10 @@
     <!-- Experience Section -->
     <section id="experience" class="experience">
       <div class="container">
-        <h2 class="section-title"></h2>
+        <div class="section-head">
+          <p class="section-eyebrow"></p>
+          <h2 class="section-title"></h2>
+        </div>
         <div class="timeline" id="experienceTimeline">
           <!-- Experience items will be loaded dynamically -->
         </div>
@@ -81,7 +176,13 @@
     <!-- Skills Section -->
     <section id="skills" class="skills">
       <div class="container">
-        <h2 class="section-title"></h2>
+        <div class="section-head">
+          <p class="section-eyebrow"></p>
+          <h2 class="section-title"></h2>
+        </div>
+        <div class="skills-marquee" id="skillsMarquee" aria-hidden="true">
+          <!-- Marquee ribbon loaded dynamically -->
+        </div>
         <div class="skills-grid" id="skillsGrid">
           <!-- Skills will be loaded dynamically -->
         </div>
@@ -91,9 +192,18 @@
     <!-- Projects Section -->
     <section id="projects" class="projects">
       <div class="container">
-        <h2 class="section-title"></h2>
+        <div class="section-head">
+          <p class="section-eyebrow"></p>
+          <h2 class="section-title"></h2>
+        </div>
+        <div class="project-filters" id="projectFilters">
+          <!-- Filter pills loaded dynamically -->
+        </div>
+        <div class="case-studies" id="caseStudies">
+          <!-- Featured case studies loaded dynamically -->
+        </div>
         <div class="projects-grid" id="projectsGrid">
-          <!-- Projects will be loaded dynamically -->
+          <!-- Repo cards loaded dynamically -->
         </div>
       </div>
     </section>
@@ -101,7 +211,10 @@
     <!-- Education Section -->
     <section id="education" class="education">
       <div class="container">
-        <h2 class="section-title"></h2>
+        <div class="section-head">
+          <p class="section-eyebrow"></p>
+          <h2 class="section-title"></h2>
+        </div>
         <div class="education-content">
           <div class="education-grid" id="educationGrid">
             <!-- Education items will be loaded dynamically -->
@@ -119,7 +232,11 @@
     <!-- Contact Section -->
     <section id="contact" class="contact">
       <div class="container">
-        <h2 class="section-title"></h2>
+        <div class="section-head">
+          <p class="section-eyebrow"></p>
+          <h2 class="section-title"></h2>
+          <p class="contact-intro" id="contactIntro"></p>
+        </div>
         <div class="contact-content">
           <div class="contact-info" id="contactInfo">
             <!-- Contact info will be loaded dynamically -->
@@ -134,12 +251,20 @@
     <!-- Footer -->
     <footer class="footer">
       <div class="container">
-        <p id="footerCopyright"></p>
-        <div class="footer-links" id="footerLinks">
-          <!-- Footer links will be loaded dynamically -->
+        <div class="footer-top">
+          <p class="footer-tagline" id="footerTagline"></p>
+          <div class="footer-links" id="footerLinks">
+            <!-- Footer links will be loaded dynamically -->
+          </div>
         </div>
+        <p id="footerCopyright"></p>
+        <p class="footer-disclaimer" id="footerDisclaimer"></p>
       </div>
     </footer>
+
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
 
     <script src="assets/js/main.js"></script>
   </body>

@@ -2,56 +2,50 @@
   "_instructions": "Organize your skills into categories. Each category has a name, icon, and list of skills.",
   "_iconHelp": "Use Font Awesome icons (https://fontawesome.com/icons).",
   "sectionTitle": "Skills & Technologies",
+  "eyebrow": "Toolbox",
+  "marquee": [
+    "OpenAI", "LangChain", "LlamaIndex", "Pinecone", "FAISS", "RAG", "Python",
+    "FastAPI", "Flask", "PyTorch", "Scikit-learn", "PostgreSQL", "AWS", "GCP",
+    "Docker", "Kubernetes", "Snowflake", "XGBoost", "SHAP"
+  ],
   "categories": [
     {
-      "category": "Programming Languages",
+      "category": "AI & LLMs",
+      "icon": "fas fa-brain",
+      "skills": [
+        "OpenAI APIs",
+        "LangChain",
+        "LlamaIndex",
+        "RAG Pipeline Design",
+        "Prompt Engineering",
+        "Pinecone",
+        "FAISS",
+        "Reranking",
+        "Evaluation (faithfulness, precision)",
+        "Fine-Tuning Concepts"
+      ]
+    },
+    {
+      "category": "Languages",
       "icon": "fas fa-code",
       "skills": [
-        "Python",
+        "Python (Advanced)",
         "SQL",
-        "Bash/Shell Scripting",
+        "Bash/Shell",
         "Java",
         "C++"
       ]
     },
     {
-      "category": "Frameworks & Libraries",
-      "icon": "fas fa-toolbox",
+      "category": "Backend & Data",
+      "icon": "fas fa-server",
       "skills": [
         "Flask",
         "FastAPI",
         "Django",
         "SQLAlchemy",
-        "LangChain",
-        "LlamaIndex",
-        "PyTorch",
-        "Scikit-learn",
-        "Pandas",
-        "NumPy",
-        "XGBoost",
-        "Random Forest"
-      ]
-    },
-    {
-      "category": "Tools & Platforms",
-      "icon": "fas fa-wrench",
-      "skills": [
-        "OpenAI APIs",
-        "Pinecone",
-        "FAISS",
-        "AWS",
-        "EC2",
-        "S3",
-        "Lambda",
-        "Glue",
-        "Athena",
-        "GCP",
-        "BigQuery",
-        "Vertex AI",
-        "Docker",
-        "Kubernetes",
-        "CI/CD",
-        "Git",
+        "REST API Design",
+        "Microservices",
         "PostgreSQL",
         "MySQL",
         "MongoDB",
@@ -60,21 +54,31 @@
       ]
     },
     {
-      "category": "Technical Skills",
-      "icon": "fas fa-laptop-code",
+      "category": "ML & NLP",
+      "icon": "fas fa-microchip",
       "skills": [
-        "RAG pipeline design",
-        "Prompt Engineering",
-        "Evaluation",
-        "Fine-Tuning Concepts",
-        "RESTful API Design",
-        "Microservices",
-        "Cloud & DevOps",
-        "ML & NLP",
-        "Anomaly Detection",
-        "Model Evaluation",
+        "PyTorch",
+        "Scikit-learn",
+        "Pandas",
+        "NumPy",
+        "XGBoost",
+        "Random Forest",
         "SHAP Analysis",
-        "Cross-Validation"
+        "Anomaly Detection",
+        "NLP",
+        "Model Evaluation (ROC-AUC)"
+      ]
+    },
+    {
+      "category": "Cloud & DevOps",
+      "icon": "fas fa-cloud",
+      "skills": [
+        "AWS (EC2, S3, Lambda, Glue, Athena)",
+        "GCP (BigQuery, Vertex AI)",
+        "Docker",
+        "Kubernetes",
+        "CI/CD",
+        "Git"
       ]
     }
   ]
