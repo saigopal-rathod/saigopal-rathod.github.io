@@ -481,7 +481,7 @@ async function loadEducation() {
       item.className = "education-item";
 
       const logo = edu.logo
-        ? `<div class="education-logo"><img src="${edu.logo}" alt="${edu.school} logo" loading="lazy" width="52" height="52" onerror="this.parentElement.classList.add('education-logo--text');this.remove();this.parentElement.textContent='${initials(
+        ? `<div class="education-logo"><img src="${edu.logo}" alt="${edu.school} logo" loading="lazy" onerror="this.parentElement.classList.add('education-logo--text');this.remove();this.parentElement.textContent='${initials(
             edu.school
           )}';"></div>`
         : `<div class="education-logo education-logo--text">${initials(edu.school)}</div>`;
