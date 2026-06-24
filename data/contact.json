@@ -8,8 +8,8 @@
       "type": "email",
       "icon": "fas fa-envelope",
       "label": "Email",
-      "value": "saigopalrathod5@gmail.com",
-      "href": "mailto:saigopalrathod5@gmail.com"
+      "value": "saigopalrathod.gre@gmail.com",
+      "href": "mailto:saigopalrathod.gre@gmail.com"
     },
     {
       "type": "phone",
@@ -43,7 +43,7 @@
   "form": {
     "action": "",
     "method": "POST",
-    "mailtoFallback": "saigopalrathod5@gmail.com",
+    "mailtoFallback": "saigopalrathod.gre@gmail.com",
     "fields": [
       {
         "id": "name",
@@ -73,6 +73,6 @@
       "type": "primary"
     },
     "successMessage": "Thanks — your message is on its way. I'll get back to you soon.",
-    "errorMessage": "Something went wrong. Please email me directly at saigopalrathod5@gmail.com."
+    "errorMessage": "Something went wrong. Please email me directly at saigopalrathod.gre@gmail.com."
   }
 }
