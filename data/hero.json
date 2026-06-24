@@ -35,7 +35,7 @@
         "text": "Download Résumé",
         "href": "assets/Sai-Gopal-Rathod-Resume.pdf",
         "type": "secondary",
-        "external": true,
+        "external": false,
         "download": true,
         "icon": "fas fa-file-arrow-down"
       }
