@@ -5,6 +5,15 @@
   "certificationsTitle": "Certifications",
   "education": [
     {
+      "degree": "Ph.D., Leadership and Management (AI Specialization)",
+      "school": "Campbellsville University",
+      "institution": "Campbellsville University",
+      "period": "Aug 2026 — Aug 2029",
+      "logo": "assets/logos/campbellsville.png",
+      "details": "Specialization in AI",
+      "description": "Doctoral study focused on leadership, management, and AI specialization."
+    },
+    {
       "degree": "MS, Business Analytics",
       "school": "Hofstra University",
       "institution": "Hofstra University",
