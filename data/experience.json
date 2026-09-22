@@ -4,19 +4,19 @@
   "eyebrow": "Where I've worked",
   "experiences": [
     {
-      "title": "AI/ML Engineer",
+      "title": "Senior AI/ML Engineer",
       "company": "NGA Group Inc.",
       "period": "Jul 2024 — Aug 2026",
       "location": "North Brunswick Township, NJ",
       "logo": "assets/logos/nga.png",
-      "description": "Building production RAG, Dataiku workflows, and automation on internal reporting data — owning architecture, evaluation, and the workflows that put analytics in non-technical hands.",
+      "description": "Led AI-powered analytics initiatives by designing production RAG systems, Dataiku-driven ML workflows, and automation solutions that transformed internal reporting into scalable, self-serve decision support.",
       "responsibilities": [
-        "Built a production RAG assistant using OpenAI APIs, LangChain, and Pinecone, enabling non-technical stakeholders to query analytics in natural language and reducing ad-hoc reporting requests.",
-        "Designed chunking strategy, embedding selection, and prompt templates with guardrails and structured evaluation metrics such as faithfulness, answer relevance, and retrieval precision.",
-        "Built and operationalized data preparation and machine learning workflows in Dataiku DSS, using visual recipes, reusable datasets, and governed project flows to streamline collaboration between technical and business teams.",
-        "Owned data architecture for 3 production databases across 5+ concurrent projects, including schema design, indexing, and integrity constraints that reduced downstream engineering corrections by 15%.",
-        "Designed 10+ Python and SQL automation workflows replacing manual reporting, recovering 20 analyst-hours per month and improving data freshness to near real time.",
-        "Profiled production logs to isolate bottlenecks and shipped targeted fixes, delivering a 10% performance gain and 25% fewer critical errors with full regression coverage."
+        "Designed and deployed a production RAG assistant using OpenAI APIs, LangChain, and Pinecone, enabling business users to query reporting data in natural language and reducing ad-hoc analytics requests.",
+        "Developed retrieval and generation strategies, including chunking, embeddings, prompt design, guardrails, and evaluation frameworks focused on faithfulness, relevance, and retrieval precision.",
+        "Built and operationalized Dataiku DSS workflows for data preparation, model development, and governed analytics pipelines, enabling cross-functional teams to collaborate on reusable, production-ready processes.",
+        "Architected and maintained data infrastructure across 3 production databases, improving schema design, indexing, and integrity controls while reducing downstream engineering fixes by 15%.",
+        "Automated 10+ reporting and data operations workflows in Python and SQL, saving 20 analyst-hours per month and improving data freshness to near real-time.",
+        "Diagnosed production bottlenecks through log analysis and performance profiling, delivering a 10% latency improvement and reducing critical errors by 25% through targeted fixes and regression testing."
       ]
     },
     {
