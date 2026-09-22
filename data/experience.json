@@ -11,11 +11,11 @@
       "logo": "assets/logos/nga.png",
       "description": "Building production RAG and automation on internal reporting data — owning architecture, evaluation, and the workflows that put analytics in non-technical hands.",
       "responsibilities": [
-        "Built a production RAG assistant using OpenAI APIs, LangChain, and a Pinecone vector store, enabling non-technical stakeholders to query analytics in natural language and reducing ad-hoc analyst requests by 35%.",
-        "Designed chunking strategy, embedding selection, and prompt templates (system prompts, few-shot, guardrails) with structured evaluation (faithfulness, answer relevance, retrieval precision), lifting response accuracy from 62% to 88% on a curated ground-truth set.",
-        "Owned data architecture for 3 production databases across 5+ concurrent projects — schema design, indexing, and integrity constraints that cut downstream engineering corrections by 15%.",
+        "Built a production RAG assistant using OpenAI APIs, LangChain, and Pinecone, enabling non-technical stakeholders to query analytics in natural language and reducing ad-hoc reporting requests.",
+        "Designed chunking strategy, embedding selection, and prompt templates with guardrails and structured evaluation metrics such as faithfulness, answer relevance, and retrieval precision.",
+        "Owned data architecture for 3 production databases across 5+ concurrent projects, including schema design, indexing, and integrity constraints that reduced downstream engineering corrections by 15%.",
         "Designed 10+ Python and SQL automation workflows replacing manual reporting, recovering 20 analyst-hours per month and improving data freshness to near real time.",
-        "Profiled production logs to isolate bottlenecks and shipped targeted fixes for a 10% performance gain and 25% fewer critical errors, with full regression coverage."
+        "Profiled production logs to isolate bottlenecks and shipped targeted fixes, delivering a 10% performance gain and 25% fewer critical errors with full regression coverage."
       ]
     },
     {
@@ -26,9 +26,9 @@
       "logo": "assets/logos/altice.png",
       "description": "Built ML services and pipelines from scratch — anomaly detection, GCP model pipelines, and ETL redesign across a subscriber base of millions.",
       "responsibilities": [
-        "Built a Python anomaly detection service from scratch using Isolation Forest with threshold-based fallbacks, improving hardware fault detection accuracy by 25% and network reliability by 20% across millions of subscribers.",
+        "Built a Python anomaly detection service from scratch using Isolation Forest with threshold-based fallbacks, improving hardware fault detection accuracy by 25% and network reliability by 20%.",
         "Developed and evaluated ML pipelines on GCP (BigQuery, Vertex AI), driving team-wide migration off legacy analytics tooling through enablement sessions across 3+ teams.",
-        "Redesigned 8 ETL pipelines in Palantir Foundry as automated, idempotent workflows — 30% faster processing and new data-reliability standards adopted org-wide.",
+        "Redesigned 8 ETL pipelines in Palantir Foundry as automated, idempotent workflows, achieving 30% faster processing and establishing new data-reliability standards across the organization.",
         "Designed A/B testing infrastructure for ML-driven feature evaluations, bringing statistical rigor to rollout decisions previously based on intuition."
       ]
     },
@@ -40,8 +40,8 @@
       "logo": "assets/logos/amazon.png",
       "description": "Architected data-quality and forecasting systems at scale on AWS — profiling, validation, and demand models across millions of records.",
       "responsibilities": [
-        "Architected an end-to-end data quality system with AWS Glue and Python across 12 interdependent datasets — automated profiling, schema validation, and anomaly flagging that improved pipeline efficiency by 41% and cut downtime by 15%.",
-        "Designed forecasting models in Python and Amazon Athena over 500,000+ records, improving demand-planning accuracy by 10% and contributing to an 8% quarterly revenue uplift by surfacing signals the incumbent model ignored.",
+        "Architected an end-to-end data quality system with AWS Glue and Python across 12 interdependent datasets, automating profiling, schema validation, and anomaly flagging to improve pipeline reliability.",
+        "Designed forecasting models in Python and Amazon Athena over 500,000+ records, improving demand-planning accuracy by 10% and contributing to an 8% quarterly revenue uplift by surfacing stronger signals.",
         "Standardized cross-functional data definitions and delivery cadence across 4 teams, cutting reporting turnaround by 25%."
       ]
     }
