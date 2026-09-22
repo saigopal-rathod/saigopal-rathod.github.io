@@ -1,8 +1,8 @@
 {
   "profile": {
     "name": "Sai Gopal Rathod",
-    "title": "AI/ML Engineer",
-    "bio": "Software developer and applied AI engineer with 4+ years of experience building RAG pipelines, LLM-powered APIs, and distributed data systems across Amazon, Altice USA, and NGA Group. Delivered end-to-end RAG architectures using LangChain, OpenAI APIs, Pinecone, and FAISS, with verifiable accuracy gains (62% to 88%) and measurable business impact (35% reduction in ad-hoc analyst requests, 60% ticket automation). Strong backend foundation in Python, Flask, FastAPI, PostgreSQL, AWS, and GCP."
+    "title": "Senior AI/ML Engineer",
+    "bio": "Senior AI/ML Engineer with 4+ years of experience building production-grade data and AI systems that convert complex operational data into measurable business value. My work spans RAG systems, LLM-powered analytics, machine learning workflows, and scalable data engineering across enterprise environments."
   },
   "contact": {
     "email": "saigopalrathod.gre@gmail.com",
@@ -12,7 +12,7 @@
   },
   "siteConfig": {
     "domain": "",
-    "title": "Sai Gopal Rathod - Portfolio",
-    "description": "Software developer and applied AI engineer with 4+ years of experience building RAG pipelines, LLM-powered APIs, and distributed data systems across Amazon, Altice USA, and NGA Group. Delivered end-to-end RAG architectures using LangChain, OpenAI APIs, Pinecone, and FAISS, with verifiable accuracy gains (62% to 88%) and measurable business impact (35% reduction in ad-hoc analyst requests, 60% ticket automation). Strong backend foundation in Python, Flask, FastAPI, PostgreSQL, AWS, and GCP."
+    "title": "Sai Gopal Rathod - Senior AI/ML Engineer",
+    "description": "Senior AI/ML Engineer with 4+ years of experience building production RAG systems, LLM-powered analytics, and scalable data solutions across Amazon, Altice USA, and NGA Group."
   }
 }
